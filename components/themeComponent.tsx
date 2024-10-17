@@ -1,7 +1,7 @@
 'use client'
 
 import {useState, useEffect} from 'react';
-import { SunIcon, MoonIcon, UserIcon, UserCircleIcon } from '@heroicons/react/24/solid';
+import { SunIcon, MoonIcon } from '@heroicons/react/24/solid';
 
 
 const ThemeComponent = () => {

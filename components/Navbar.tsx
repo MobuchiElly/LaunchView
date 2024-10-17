@@ -1,13 +1,9 @@
 'use client'
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import ThemeComponent from './themeComponent';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [userActive, setuserActive] = useState(false);
-  const router = useRouter();
   const [theme, setTheme] = useState<string>('');
 
   const toggleMenu = () => {
