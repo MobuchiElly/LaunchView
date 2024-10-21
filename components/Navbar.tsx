@@ -88,7 +88,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-[#003135]">
-          <div className="space-y-1 px-6 pt-2 pb-3 text-white text-base font-medium">
+          <div className="space-y-2 px-6 pt-2 pb-3 text-white text-base font-medium">
             <Link href="/" className='block'>
                 Home
             </Link>
