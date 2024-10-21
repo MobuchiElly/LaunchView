@@ -1,4 +1,4 @@
-import ProjectList from "@/components/Projects"
+import ProjectList from "@/components/ProjectList"
 
 const page = () => {
   return (

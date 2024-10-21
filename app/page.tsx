@@ -4,7 +4,7 @@ import {redirect} from 'next/navigation';
 const page = () => {
   const workingOnPage = false;
   if(!workingOnPage){
-    redirect('/projectView');
+    redirect('/projects');
   }
   return (
     <div className='text-center'>Welcome Page</div>
